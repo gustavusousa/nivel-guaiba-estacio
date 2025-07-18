@@ -219,4 +219,4 @@ st.sidebar.info(
     """
 )
 st.sidebar.markdown("---")
-st.sidebar.markdown("Para ver o código-fonte, acesse o [repositório no GitHub](https://github.com/SEU-USUARIO/SEU-REPOSITORIO).") # <--- SUBSTITUA PELO SEU LINK DO GITHUB
+st.sidebar.markdown("Para ver o código-fonte, acesse o [repositório no GitHub](https://github.com/gustavusousa/nivel-guaiba-estacio).")
