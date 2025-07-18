@@ -196,18 +196,27 @@ if melhor_lag:
 else:
     st.warning(f"Não foi possível calcular a correlação para {ano_corr}. Verifique os dados de entrada.")
 
-# --- 5. SEÇÃO "SOBRE" NA BARRA LATERAL ---
+# --- 5. SEÇÃO "SOBRE" NA BARRA LATERAL---
 st.sidebar.title("Sobre o Projeto")
+
+url_foto = "https://imgur.com/a/1aVvt6F" 
+st.sidebar.image(url_foto, caption="Gustavu Vinícius de Sousa Martins", use_column_width=True)
+
+# --- INFORMAÇÕES ATUALIZADAS ---
 st.sidebar.info(
     """
-    **Autor:** Gustavo (Estudante de Ciência da Computação)
+    Este projeto foi desenvolvido como requisito para a conclusão da disciplina de 
+    **Análise de Dados**, como parte do curso de **Análise e Desenvolvimento de Sistemas** da **Universidade Estácio de Sá**.
     
-    **Objetivo:** Este é um projeto de Extensão para a faculdade, com o objetivo de 
-    aplicar técnicas de análise de dados para gerar insights de relevância para a 
-    comunidade de Porto Alegre, RS.
+    **Autor:** Gustavu Vinícius de Sousa Martins
+    
+    O objetivo é aplicar técnicas de análise de dados para gerar insights de 
+    relevância para a comunidade de Porto Alegre, RS, a partir de dados públicos.
     
     **Fontes de Dados:**
     - **Nível do Rio:** Agência Nacional de Águas (ANA)
     - **Dados de Chuva:** Instituto Nacional de Meteorologia (INMET)
     """
 )
+st.sidebar.markdown("---")
+st.sidebar.markdown("Para ver o código-fonte, acesse o [repositório no GitHub](https://github.com/SEU-USUARIO/SEU-REPOSITORIO).") # <--- SUBSTITUA PELO SEU LINK DO GITHUB
