@@ -199,7 +199,7 @@ else:
 # --- 5. SEÇÃO "SOBRE" NA BARRA LATERAL---
 st.sidebar.title("Sobre o Projeto")
 
-url_foto = "https://imgur.com/a/1aVvt6F" 
+url_foto = "https://i.imgur.com/T3uOXC2.png" 
 st.sidebar.image(url_foto, caption="Gustavu Vinícius de Sousa Martins", use_column_width=True)
 
 # --- INFORMAÇÕES ATUALIZADAS ---
